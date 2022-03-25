@@ -12,6 +12,12 @@
     display: flex;
 }
 
+.clear-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -32,4 +38,12 @@ body {
 .logo {
     display: flex;
     align-items: center;
+}
+
+.nav__list__item {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.025em;
+    color: var(--white-900);
 }
