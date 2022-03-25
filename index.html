@@ -15,13 +15,15 @@
 <body>
 
     <header class="header">
-        <div class="container">
+        <div class="container d-flex">
             <div class="logo">
-                <img class="logo__img" src="./assets/icons/logo.png" alt="Logo">
+                <a class="logo__img" href="#">
+                    <img class="logo__img" src="./assets/icons/logo.png" alt="Logo">
+                </a>
                 <h3 class="logo__text">DEVCLOUD SOLUTIONS</h3>
             </div>
-            <nav class="nav">
-                <ul class="nav__list  d-flex clear-list">
+            <nav class="header__nav">
+                <ul class="header__nav__list  d-flex clear-list">
                     <li class="nav__list__item">Главная</li>
                     <li class="nav__list__item">Услуги</li>
                     <li class="nav__list__item">Как мы работаем</li>
@@ -32,6 +34,16 @@
             </nav>
         </div>
     </header>
+
+    <section class="main">
+        <div class="main__block container">
+            <h1 class="main__title">Компания по разработке програмного обеспечения</h1>
+            <button class="main-btn green-btn btn">Запросить консультацию</button>
+            <a class="main__row" href="#">
+                <img src="./assets/icons/row.png" alt="">
+            </a>
+        </div>
+    </section>
 
     <script src="./assets/js/main.js"></script>
 </body>
