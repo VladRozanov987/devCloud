@@ -30,7 +30,7 @@ img {
 }
 
 .green-btn {
-    background: rgba(0, 153, 125, 0.79);
+    background: rgba(0, 153, 125, .79);
     border-radius: 43px;
     padding: 12px 39px;
     color: var(--white-900);
@@ -39,7 +39,7 @@ img {
 
 .green-btn:hover,
 .green-btn:focus {
-    background-color: rgba(0, 153, 125, 1);
+    background-color: #00997d;
 }
 
 body {
@@ -64,7 +64,7 @@ body {
 .header {
     width: 100%;
     position: fixed;
-    background: rgba(41, 162, 140, 0.11);
+    background: rgba(41, 162, 140, .11);
     backdrop-filter: blur(8px);
 }
 
@@ -103,7 +103,7 @@ body {
 .main {
     height: 100vh;
     padding: 223px 368px 153px;
-    background-image: url(/assets/img/headerIMG.jpg);
+    background-image: url(./../img/headerIMG.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
