@@ -305,7 +305,6 @@ body {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, .25);
     border-radius: 27px;
     width: 250px;
-    height: 500px;
     padding: 0 43px 70px 52px;
 }
 
@@ -504,6 +503,97 @@ body {
 
 
 /*/ process */
+
+
+/* technology */
+
+.technology__title {
+    margin-top: 0;
+    margin-bottom: 80px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.35;
+    letter-spacing: .045em;
+    color: var(--black-900);
+}
+
+.tech__slider__item {
+    cursor: pointer;
+    max-width: 100px;
+}
+
+.technology__slider__reverse {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+
+/*/ technology */
+
+
+/* expirience */
+
+.expirience__title {
+    margin-bottom: 80px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.35;
+    letter-spacing: .045em;
+    color: var(--black-900);
+}
+
+.exp__slide-title {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 1.35;
+    letter-spacing: .025em;
+    color: var(--black-900);
+}
+
+.exp__slide-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: .015em;
+    color: var(--black-900);
+}
+
+
+/*/ expirience */
+
+
+/* partners */
+
+.partners {
+    margin-top: 100px;
+}
+
+.partners__title {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 80px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.35;
+    letter-spacing: .045em;
+    color: var(--black-900);
+}
+
+.partners__slider {
+    display: flex;
+    align-items: center;
+}
+
+.partners__slider:not(:last-child) {
+    margin-bottom: 50px;
+}
+
+
+/*/ partners */
 
 
 /* footer */
