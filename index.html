@@ -16,23 +16,34 @@
 <body>
 
     <header class="header">
-        <div class="container d-flex">
-            <div class="logo">
-                <a class="logo__img" href="#">
-                    <img class="logo__img" src="./assets/icons/logo.png" alt="Logo">
-                </a>
-                <h3 class="logo__text">DEVCLOUD SOLUTIONS</h3>
-            </div>
-            <nav class="header__nav">
-                <ul class="header__nav__list  d-flex clear-list">
-                    <li class="nav__list__item">Главная</li>
-                    <li class="nav__list__item">Услуги</li>
-                    <li class="nav__list__item">Как мы работаем</li>
-                    <li class="nav__list__item">Портфолио</li>
-                    <li class="nav__list__item">О нас</li>
-                    <li class="nav__list__item">Контакты</li>
-                </ul>
-            </nav>
+        <div class="logo">
+            <a class="logo__img" href="#">
+                <img class="logo__img" src="./assets/icons/logo.png" alt="Logo">
+            </a>
+            <h3 class="logo__text">DEVCLOUD SOLUTIONS</h3>
+        </div>
+        <nav class="header__nav">
+            <ul class="header__nav__list  d-flex clear-list">
+                <li class="nav__list__item">Главная</li>
+                <li class="nav__list__item">Услуги</li>
+                <li class="nav__list__item">Как мы работаем</li>
+                <li class="nav__list__item">Портфолио</li>
+                <li class="nav__list__item">О нас</li>
+                <li class="nav__list__item">Контакты</li>
+            </ul>
+        </nav>
+        <button class="header__mob-menu btn js--menu-btn">
+            <span class="header__mob-menu__span"></span>
+        </button>
+        <div class="mob__menu js--header-menu-mob">
+            <ul class="mob__header__nav__list  d-flex clear-list">
+                <li class="mob__nav__list__item">Главная</li>
+                <li class="mob__nav__list__item">Услуги</li>
+                <li class="mob__nav__list__item">Как мы работаем</li>
+                <li class="mob__nav__list__item">Портфолио</li>
+                <li class="mob__nav__list__item">О нас</li>
+                <li class="mob__nav__list__item">Контакты</li>
+            </ul>
         </div>
     </header>
 
@@ -46,7 +57,7 @@
         </div>
     </section>
 
-    <section class="guarantee">
+    <!--     <section class="guarantee">
         <div class="container">
             <div class="guarantee__header">
                 <ul class="guarantee__header__list clear-list d-flex">
@@ -391,10 +402,10 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <footer class="footer">
-        <div class="container">
+        <div class="container d-flex">
             <div class="footer__logo">
                 <div class="logo__line">
                     <div class="logo__line-logo d-flex">
@@ -446,11 +457,11 @@
                         <a class="footer__nav__column__link" href="#">Контакты</a>
                     </div>
                 </div>
-                <div class="footer__up__btn">
-                    <a class="row__up-link" href="#">
-                        <img src="./assets/icons/row-up.png" alt="">
-                    </a>
-                </div>
+            </div>
+            <div class="footer__up__btn">
+                <a class="row__up-link" href="#">
+                    <img src="./assets/icons/row-up.png" alt="">
+                </a>
             </div>
         </div>
     </footer>
